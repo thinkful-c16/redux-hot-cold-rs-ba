@@ -1,4 +1,4 @@
 import {createStore} from 'redux';
-import {crudReducer} from './reducers';
+import {guessReducer} from './reducers';
 
 export default createStore(guessReducer);
